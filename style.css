@@ -1,0 +1,130 @@
+
+:root{
+
+    --main-blue:#3a6cf4;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px; 
+}
+.logo{
+    text-decoration: none;
+    color: var(--main-blue);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navigation a{
+    color: var(--main-blue);
+    text-decoration: none;
+    font-size: 20px;
+  
+    margin-left: 30px;
+}
+
+
+
+.main{
+    background-image: url('christopher-gower-m_HRfLhgABo-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+
+
+.main h2{
+    color: white;
+    font-size: 30px;
+}
+.main span{
+    color: var(--main-blue);
+    font-size: 40px;
+   
+}
+.main h3{
+    color: white;
+    font-size: 30px;
+}
+.main .work-btn{
+    background-color: var(--main-blue);
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.social-icons a{
+    color: var(--main-blue);
+    font-size: 25px;
+    margin-right: 20px;
+   
+}
+@media (max-width:300px){
+
+    .logo{
+        font-size: 15px;
+    }
+    .navigation a{
+        font-size: 12px;
+       
+    }
+
+}
+
+
+
+
+
+.cards{
+    margin-top: 40px;
+}
+
+
+.cards .title{
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-color: #fff;
+  
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 5px 8px black;
+    transition: .5s all;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card .icon{
+    color: var(--main-blue);
+    font-size: 8em;
+    text-align: center;
+
+}
+
+
+
