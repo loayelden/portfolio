@@ -1,8 +1,8 @@
 
 :root{
 
-    --main-blue:#3a6cf4;
-
+    /* --main-blue:#3a6cf4; */
+    --main-blue:green;
 }
 *{
     padding: 0;
